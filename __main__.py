@@ -209,6 +209,7 @@ VOCABULARY = \
     Word("sunny", "hare"),
     Word("winter", "fuyu"),
     Word("summer", "natsu"),
+    Word("wind", "kaze"),
 
     Word("daytime", "hiru"),
     Word("night", "yoru"),
@@ -216,6 +217,10 @@ VOCABULARY = \
     Word("house", "ie"),
     Word("room", "heya"),
     Word("outside", "soto"),
+    Word("bank", "ginkou"),
+
+    Word("map", "chizu"),
+    Word("bag", "kaban"),
 ]
 
 def ask_user(question, correct_answer, answer_evaluation_callback):
